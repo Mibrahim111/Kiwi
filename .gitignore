@@ -1,0 +1,118 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Experiment Outputs
+# =========================
+outputs/
+results/
+experiments/
+runs/
+tensorboard_logs/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# =========================
+# Model Weights / Checkpoints
+# =========================
+checkpoints/
+models/
+*.h5
+*.ckpt
+*.pth
+*.pt
+# *.npy
+# *.npz
+
+# =========================
+# Large Data Files
+# =========================
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.hdf5
+*.pkl
+
+# =========================
+# Testing / Coverage
+# =========================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# =========================
+# MyPy / Static Analysis
+# =========================
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# =========================
+# Build artifacts (Cython etc.)
+# =========================
+*.c
+*.cpp
+*.o
+*.obj
+
